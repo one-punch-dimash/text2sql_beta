@@ -6,11 +6,17 @@ A repository that contains information about my own Text2SQL model (very beta ve
 For this specific task I will be using a peronally created dummy marketing agency database on Clickhouse (https://clickhouse.com). Main requirements for this database will be its' ability to answer on these specific questions:
 
 • How many active agency customers did we have on January 1st, 2022?
+
 • When did we get the highest number of users per day in Q1 2023?
+
 • When did we get the maximum of daily visits on the website in 2022?
+
 • What was the average CPC in Google Ads in April 2023?
+
 • How many LinkedIn clicks did we have in 2022?
+
 • Which platform had the highest CPC in 2022: Google or Bing?
+
 • Get the best ad name by clicks from Facebook, Google, and LinkedIn for 2022.
 
 After some brainstroming time, with help of database management knowledge, I made up a dataset that minimally satisfies real-world marketing agency cases and requirements mentioned above. Here are my thoughts on how should my database look structurally:
