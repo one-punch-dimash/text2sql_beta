@@ -33,7 +33,8 @@ Table Platform containing data of ad platforms effectiveness, having 5 columns:
 4) date - date of ad day
 5) ad_cost - cost of ad per day (necessary for CPC calculation)
 
-<img width="1374" alt="Screen Shot 2023-06-26 at 22 55 40" src="https://github.com/one-punch-dimash/text2sql_beta/assets/98669739/ede9f129-6431-4b4a-8efe-117f22bf8f26">
+<img width="1374" alt="Screen Shot 2023-06-27 at 00 10 35" src="https://github.com/one-punch-dimash/text2sql_beta/assets/98669739/f09ffa94-e6f6-4af3-a7b2-48208b4caf5f">
+
 
 That's it, only 3 table, with no key connections between them (thanks God, otherwise the task could become much more complicated). You can see ClickHouse SQL script executed on my server in marketing_agency.sql file.
 
