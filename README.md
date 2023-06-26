@@ -50,5 +50,10 @@ After exploring several scientific papers, I have gotten a solid comprehension u
 
 # Solution
 
-I chose Wikisql database and applied T5 pre-trained model for this task. To be fair, my solution is not ideal due to the fact that I didn't consider a point about model's database comprehension mechanism, because it requires much more time to be done. Lack of computational resources is another reason why the results are not satisfying, developing the model on Google Colab's free GPU was a bad decision. You can check 
+I chose Wikisql database and applied T5 pre-trained model for this task. To be fair, my solution is not ideal due to the fact that I didn't consider a point about model's database comprehension mechanism, because it requires much more time to be done. 
+
+Lack of computational resources is another reason why the results are not satisfying, developing the model on Google Colab's free GPU was a bad decision. You can see my work in text2sql_homework_Aitkali_D.ipynb file. 
+
+To conclude, I was very excited solving the task, and plan to continue researching the field of text2SQL, I think it's one of the most promising way of research.
+
 
