@@ -44,4 +44,11 @@ Table Platform containing data of ad platforms effectiveness, having 5 columns:
 
 That's it, only 3 table, with no key connections between them (thanks God, otherwise the task could become much more complicated). You can see ClickHouse SQL script executed on my server in marketing_agency.sql file.
 
+# Text2SQL comprehension
+
+After exploring several scientific papers, I have gotten a solid comprehension upon what model should do. First of all, and in my opinion, most importantly, we need to teach our model to translate natural language questions into SQL queries is to generalize to unseen database schemas. SQL deals with structured relational databases, and authors of "SQL-PALM: Improved Large Language Model Adaptation For Text-To-SQL", Sun et al. gave a decent explanation on how a model should read and analyse databases as functions with independent variables as T (tables), K (keys), and c (columns). This kind of generalisation depends on encoding the database relations in an accessible way and modelling alignment between relevant database columns in the query. So a self-attention mechanism that enables the encoding of schema information, representation of features, and linking of schema elements within the text-to-SQL model should be constructed in order to give the model insights about any database. Besides, the model must understand not only the structure of databases, but also make computations within given tables. 
+
+# Solution
+
+I chose Wikisql database and applied T5 pre-trained model for this task. To be fair, my solution is not ideal due to the fact that I didn't consider a point about model's database comprehension mechanism, because it requires much more time to be done. Lack of computational resources is another reason why the results are not satisfying, developing the model on Google Colab's free GPU was a bad decision. You can check 
 
